@@ -6,6 +6,8 @@
 
 body > .container{
 	padding-top: 60px;
+	background-color: black;
+	color: white;
 }
 
 
