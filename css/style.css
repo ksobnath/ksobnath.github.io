@@ -4,9 +4,11 @@
  */
 body
 {
+	
 	background-repeat:no-repeat;
 	background: url("image.png");
-	background-size: 100%;
+	background-size: cover;
+	
 }
 
 ul {
