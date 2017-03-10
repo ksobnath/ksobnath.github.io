@@ -1,7 +1,7 @@
 
  $(document).ready(function() {
 	$.ajax({
-		url : "http://bitcoin.mubiz.com/transaction/bitcoin_trx/",
+		url : "http://mubiz.com/@user_url/bitcoin/montant/référence/emetteur/",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
