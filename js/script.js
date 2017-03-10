@@ -1,7 +1,7 @@
 
  $(document).ready(function() {
 	$.ajax({
-		url : "http://mubiz.com/@user_url/bitcoin/montant/référence/emetteur/",
+		url : "http://bitcoin.mubiz.com/info",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
@@ -9,7 +9,7 @@
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.user_url);
+			$('#bitcoin_block_number').append(data.blocks);
 		},
 
 		error : function(xhr, status, err) {
