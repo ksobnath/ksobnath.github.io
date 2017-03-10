@@ -1,7 +1,7 @@
 
  $(document).ready(function() {
 	$.ajax({
-		url : "http://bitcoin.mubiz.com/address/bitcoin_address/",
+		url : "http://bitcoin.mubiz.com/transaction/bitcoin_trx/",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
