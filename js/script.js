@@ -9,7 +9,7 @@
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.montant);
+			$('#bitcoin_block_number').append(data.user_url);
 		},
 
 		error : function(xhr, status, err) {
